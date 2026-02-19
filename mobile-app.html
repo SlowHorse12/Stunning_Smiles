@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Punjabi Voice">
     <meta name="theme-color" content="#4285f4">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <title>📱 Punjabi Voice Translator - Mobile App</title>
     <style>
         * {
@@ -32,7 +32,7 @@
         .container {
             max-width: 100%;
             margin: 0 auto;
-            background: rgba(255, 255, 255, 1);
+            background: rgba(255, 255, 255, 1   );
             color: #333;
             border-radius: 20px;
             padding: 20px;
@@ -494,7 +494,7 @@
 
         // Service Worker Registration
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('./sw.js')
                 .then((registration) => {
                     console.log('ServiceWorker registered');
                 })
