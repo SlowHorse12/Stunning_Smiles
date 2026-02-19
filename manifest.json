@@ -1,0 +1,31 @@
+{
+  "name": "Punjabi Voice Translator",
+  "short_name": "PunjabiVoice",
+  "description": "English to Punjabi voice translation with Google TTS",
+  "start_url": "/mobile-app.html",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#4285f4",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "permissions": [
+    "microphone"
+  ],
+  "features": [
+    "SpeechRecognition",
+    "AudioContext"
+  ]
+}
